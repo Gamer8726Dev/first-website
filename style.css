@@ -7,7 +7,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-nav{
+nav {
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -16,21 +16,47 @@ nav{
   background-color: #cafdff;
 }
 
-a{
+header {
+  background-color: #cafdff;
+  height: calc(100vh - 70px);
+  padding: 24px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+.subheader {
+  font-size: 36px;
+  margin: 16px 0 24px 0;
+}
+
+button {
+  background: #05c7cf;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
+a {
   color: #000;
   font-size: 24px;
   font-weight: 700;
 }
 
-.logo{
+.logo {
   width: 300px;
 }
 
-ul{
+ul {
   display: flex;
 }
 
-li{
+li {
   list-style-type: none;
   padding-left: 16px;
 }
